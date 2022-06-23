@@ -1,6 +1,6 @@
 {
-  "name": "dagre",
-  "version": "0.8.6-pre",
+  "name": "@secrets/dagre",
+  "version": "0.8.6",
   "description": "Graph layout for JavaScript",
   "author": "Chris Pettitt <cpettitt@gmail.com>",
   "contributors": [
@@ -16,10 +16,11 @@
     "layout"
   ],
   "scripts": {
-    "build": "rollup --config ./build/rollup.config.js"
+    "build": "rollup --config ./build/rollup.config.js",
+    "release": "npm publish --access public --registry  https://registry.npmjs.org/"
   },
   "dependencies": {
-    "graphlib": "^2.1.8",
+    "@secrets/graphlib": "^2.1.9-pre",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
@@ -45,6 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dagrejs/dagre.git"
-  }
+    "url": "git+https://github.com/secrets-pro/dagre.git"
+  },
+  "homepage": "https://github.com/secrets-pro/dagre"
 }
