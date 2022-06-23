@@ -1013,10 +1013,10 @@
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz#323d72dd25103d0c4fbdce89dadf574a787b1f9b"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@secrets/graphlib@^2.1.9":
-  version "2.1.9"
-  resolved "https://registry.npmjs.org/@secrets/graphlib/-/graphlib-2.1.9.tgz#7151b1fc15403dcb4d60dd1b4916bce294782dee"
-  integrity sha512-/wBvi7O4NBOZ485HzfIyV0bq1saNN6OYk4kdyB5gO0ZeUmD+Lcj+iGHJe8xfil6nY8UcEg/PgI5Wb6XbBhrpZA==
+"@secrets/graphlib@^2.1.10":
+  version "2.1.10"
+  resolved "https://registry.npmjs.org/@secrets/graphlib/-/graphlib-2.1.10.tgz#96528f9c999f98128c1943aa7b55aec95ff8f7d0"
+  integrity sha512-ib66hOieC7EEk//EmrMsjaxA5T5+3THIaUb+tDXQ8UvVjUbvTcZR6UdA7HT8bgq2xnLl0sGVJhC1Z1NLaeJCGg==
   dependencies:
     "@types/lodash" "^4.14.182"
     lodash "^4.17.21"
