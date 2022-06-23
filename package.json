@@ -1,6 +1,6 @@
 {
   "name": "@secrets/dagre",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "description": "Graph layout for JavaScript",
   "author": "Chris Pettitt <cpettitt@gmail.com>",
   "contributors": [
@@ -20,7 +20,7 @@
     "release": "npm publish --access public --registry  https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@secrets/graphlib": "^2.1.9-pre",
+    "@secrets/graphlib": "^2.1.9",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
