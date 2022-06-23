@@ -7,10 +7,10 @@
     "Matthew Dahl (https://github.com/sandersky)"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "module": "index.js",
-  "unpkg": "index.js",
-  "jsdelivr": "index.js",
+  "main": "dist/dagre.esm.js",
+  "module": "dist/dagre.esm.js",
+  "unpkg": "dist/dagre.cjs.js",
+  "jsdelivr": "dist/dagre.cjs.js",
   "keywords": [
     "graph",
     "layout"
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "graphlib": "^2.1.8",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "benchmark": "2.1.4",
